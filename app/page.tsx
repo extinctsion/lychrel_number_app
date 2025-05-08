@@ -10,7 +10,7 @@ export default function Home() {
           <ThemeToggle />
         </div>
         <div className="w-full max-w-4xl space-y-8 mt-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-center">Lychrel Number Checker</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-center">Lychrel Number Visualizer</h1>
           <p className="text-center text-muted-foreground">
             Check if a number is a Lychrel number and visualize the results from 1 to n.
           </p>

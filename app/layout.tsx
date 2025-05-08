@@ -6,9 +6,9 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Lychrel Number Checker",
+  title: "Lychrel Number Visualizer",
   description: "Check and visualize Lychrel numbers",
-    generator: 'v0.dev'
+    generator: 'extinctsion'
 }
 
 export default function RootLayout({
@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/letter-l.png" type="image/png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
