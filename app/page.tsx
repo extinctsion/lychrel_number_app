@@ -14,6 +14,12 @@ export default function Home() {
           <p className="text-center text-muted-foreground">
             Check if a number is a Lychrel number and visualize the results from 1 to n.
           </p>
+          <p className="text-center text-muted-foreground">
+            A Lychrel number is a natural number that cannot form a palindrome through the iterative process of reversing its digits and adding the result to the original number.
+          </p>
+          <p className="text-center text-muted-foreground">
+            For example, the number 200 is not a Lychrel number because reversing and adding its digits (200 + 002 = 202) forms a palindrome. However, 196 is suspected to be a Lychrel number as no palindrome has been found after many iterations.
+          </p>
           <LychrelChecker />
         </div>
       </main>
